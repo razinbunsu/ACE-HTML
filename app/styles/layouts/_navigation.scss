@@ -1,0 +1,15 @@
+.site-navigation {
+	font-size: 16px;
+	ul {
+		> li {
+			> a {
+				color: #fff;
+				padding: 10px 30px;
+				&:hover {
+					background-color: transparent;
+					color: $brand-primary;
+				}
+			}
+		}
+	}
+}

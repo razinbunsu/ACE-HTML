@@ -1,0 +1,16 @@
+.btn {
+	font-weight: 900;
+	transition: all .2s ease-in-out;
+}
+.btn-outline-default {
+	color: #fff;
+	border-color: #fff;
+	&:hover {
+    	background-color: darken(#fff, 10%);
+        border-color: darken(#fff, 12%);
+    }
+    &:focus {
+    	background-color: darken(#fff, 10%);
+        border-color: darken(#fff, 25%);
+	}
+}
